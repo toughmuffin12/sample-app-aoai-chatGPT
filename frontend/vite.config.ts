@@ -12,8 +12,8 @@ export default defineConfig({
     },
     server: {
         proxy: {
-            "/ask": "http://localhost:5000",
-            "/chat": "http://localhost:5000"
+            "/ask": "app-backend-gdmcdq7bqtwre.azurewebsites.net",
+            "/chat": "app-backend-gdmcdq7bqtwre.azurewebsites.net"
         }
     }
 });
