@@ -46,7 +46,7 @@ param embeddingModelName string = 'text-embedding-ada-002'
 // Used by prepdocs.py: Form recognizer
 param formRecognizerServiceName string = ''
 param formRecognizerResourceGroupName string = ''
-param formRecognizerResourceGroupLocation string = location
+param formRecognizerResourceGroupLocation string = 'westus'
 param formRecognizerSkuName string = ''
 
 // Used for the Azure AD application
